@@ -1,0 +1,25 @@
+#parse("/array.java.vm")
+#if ($packageName)
+package $packageName;
+
+#end##
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+#set( $featureFileStripped = $featureFile.replaceFirst("(.*)/src", "src") )
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        strict = $strict,
+        features = {"$featureFileStripped"},
+        plugin = #stringArray($plugins),
+        
+#if(!$featureFile.contains(".feature:") && $tags)
+        tags = #stringArray($tags),
+#end
+    monochrome = $monochrome)
+##  glue = #stringArray($glue))
+public class $className {
+}

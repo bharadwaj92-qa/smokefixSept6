@@ -1,0 +1,22 @@
+
+<apol:GETQuestionnaireTemplateReq xmlns:apol="http://www.alere.com/xsds/ApolloAssessment.xsd">
+
+    <apol:TransactionID>NNNNNNNN</apol:TransactionID>
+
+    <apol:ParticipantID>?</apol:ParticipantID>
+
+    <apol:QuestionnaireID>?</apol:QuestionnaireID>
+
+    <apol:AssessmentSubTypeID>REIMAGINED</apol:AssessmentSubTypeID>
+
+    <apol:ApplicationID>202</apol:ApplicationID>
+
+    <apol:UserFeedbackCriteria>
+
+        <apol:FlatInteractionTypeID>910</apol:FlatInteractionTypeID>
+
+    </apol:UserFeedbackCriteria>
+
+    <apol:LanguageID>1</apol:LanguageID>
+
+</apol:GETQuestionnaireTemplateReq>

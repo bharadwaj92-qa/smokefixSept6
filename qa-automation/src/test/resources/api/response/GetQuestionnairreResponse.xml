@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:GETQuestionnaireTemplateRes
+  xmlns:ns1="http://www.alere.com/xsds/ApolloAssessment.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns1:TransactionID>NNNNNNNN</ns1:TransactionID>
+  <ns1:ErrorMessage>Could not get the QuestionnaireXML with the input paramers QuestionnaireID:0, LanguageID:1</ns1:ErrorMessage>
+  <ns1:UserFeedback/>
+</ns1:GETQuestionnaireTemplateRes>
